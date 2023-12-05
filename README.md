@@ -30,7 +30,7 @@ This for translating Excel files through the Deepl Translator API. Because the D
 2. Update the following information in the Python script:
 
     - Get an authentication key from deepl and enter it here `authentication_key = "################################"`.
-    - Replace `'file.xlsx'` with the name of the Excel file you wish to translate. Alternatively, change the name of your Excel file to file.xlsx.
+    - Replace `'file.xlsx'` with the name of the Excel file you wish to translate. Alternatively, change the name of your Excel file to `file.xlsx`.
 
 3. Place the Excel file you wish to translate into the same directory as the Python script.
 
