@@ -43,7 +43,7 @@ This for translating Excel files through the Deepl Translator API. Because the D
 5. The `output.txt` file will have the translated cells in seperate groups of text.
 
 ## File Structure
-- `Excel Deepl Translator.py` Python script for translating excel file to English and saving it as `tt.txt`.
+- `Excel Deepl Translator.py` Python script for translating excel file to English and saving it as `output.txt`.
 - `input.txt`: Text file used to hold text from Excel file, and be translated by deepl as a document
 - `output.txt`: Text file containing translated text
 - `file.xlsx`: An Excel file that you wish to translate into English needs to be placed in this directory and name configured in the script or its file name changed to `file.xslx`.
