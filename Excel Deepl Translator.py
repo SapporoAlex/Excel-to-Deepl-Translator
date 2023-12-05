@@ -23,7 +23,5 @@ for row in range(1, sheet.max_row + 1):
         tmp.write(tbt + '\n\n')
 
 tmp.close()
-
 translator.translate_document_from_filepath(input_path, output_path, target_lang='EN-GB')
-
-
+tt.close()
