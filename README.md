@@ -1,6 +1,8 @@
 # Excel-to-Deepl-Translator
 This for translating Excel files through the Deepl Translator API. Because the Deepl API cannot translate Excel files, this program first copies the text from the Excel file to a txt file, then translates through Deepl, and returns the text to a txt file.
 
+![deeplexcelimage](https://shoptexto.com/wp-content/uploads/2021/12/deepl-excel-icon.png)
+
 ## Table of Contents
 - [Features](#features)
 - [Requirements](#requirements)
@@ -37,7 +39,7 @@ This for translating Excel files through the Deepl Translator API. Because the D
 4. Run the script:
 
     ```bash
-    python chess_ratings_tracker.py
+    python Excel Deepl Translator.py
     ```
 
 5. The `output.txt` file will have the translated cells in seperate groups of text.
