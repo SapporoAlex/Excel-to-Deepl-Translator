@@ -13,7 +13,7 @@ This for translating Excel files through the Deepl Translator API. Because the D
 
 ## Features
 - Takes an excel document with chunks of Japanese text in to 1st column, and adds a US English translation to the 2nd column
-- Adds 'Translated to the Excel file name
+- Adds 'Translated' to the Excel file name
 
 ## Requirements
 - [Deepl API Authentication Key](https://www.deepl.com/docs-api/api-access/authentication)
