@@ -1,7 +1,7 @@
 # Excel-to-Deepl-Translator
 This for translating Excel files through the Deepl Translator API. Because the Deepl API cannot translate Excel files, this program first copies the text from the Excel file to a txt file, then translates through Deepl, and returns the text to a txt file.
 
-![Process](process.png")
+![Process](process.png)
 
 ## Table of Contents
 - [Features](#features)
