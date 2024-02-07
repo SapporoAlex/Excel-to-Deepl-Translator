@@ -1,5 +1,5 @@
 # Excel-to-Deepl-Translator
-This for translating Excel files through the Deepl Translator API. Because the Deepl API cannot translate Excel files, this program first copies the text from the Excel file to a txt file, then translates through Deepl, and returns the text to a txt file.
+This for translating Excel files through the Deepl Translator API. Because the Deepl API cannot translate Excel files, this program first copies the text from the Excel file to a txt file, then translates through Deepl, returns the text to a txt file, then places the English text into the 2nd column in the corresponding row of the Excel file. It also adds 'Translated' to the file name.
 
 ![Process](process.png)
 
@@ -12,10 +12,8 @@ This for translating Excel files through the Deepl Translator API. Because the D
 - [License](#license)
 
 ## Features
-- Retrieves daily ratings data from chess.com API.
-- Updates Excel file with ratings for Blitz, Rapid, and Daily chess games.
-- Generates line charts for each chess category (Blitz, Rapid, Daily) for each day of the current month.
-- Updates an overview sheet on the first day of each month with a summary of ratings.
+- Takes an excel document with chunks of Japanese text in to 1st column, and adds a US English translation to the 2nd column
+- Adds 'Translated to the Excel file name
 
 ## Requirements
 - [Deepl API Authentication Key](https://www.deepl.com/docs-api/api-access/authentication)
